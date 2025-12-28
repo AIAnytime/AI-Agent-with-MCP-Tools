@@ -17,6 +17,8 @@ This application implements a document management system where users with differ
 
 ## System Architecture
 
+![Graph Diagram](graphviz.svg)
+
 ```
 User Interface (React)
          ↓
