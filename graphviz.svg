@@ -1,0 +1,334 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="754pt" height="972pt" viewBox="0.00 0.00 754.00 972.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 968.4)">
+<title>AIAgentArchitecture</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-968.4 750.27,-968.4 750.27,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_frontend</title>
+<polygon fill="lightblue" stroke="lightblue" points="8,-754.2 8,-956.4 397,-956.4 397,-754.2 8,-754.2"/>
+<text xml:space="preserve" text-anchor="middle" x="202.5" y="-939.8" font-family="Arial Bold" font-size="14.00">Frontend Layer</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_api</title>
+<polygon fill="lightgreen" stroke="lightgreen" points="405,-664.6 405,-847.8 711,-847.8 711,-664.6 405,-664.6"/>
+<text xml:space="preserve" text-anchor="middle" x="558" y="-831.2" font-family="Arial Bold" font-size="14.00">API Server Layer</text>
+<text xml:space="preserve" text-anchor="middle" x="558" y="-814.4" font-family="Arial Bold" font-size="14.00">(FastAPI - Port 8000)</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_agent</title>
+<polygon fill="lightyellow" stroke="lightyellow" points="229,-432 229,-634.6 459,-634.6 459,-432 229,-432"/>
+<text xml:space="preserve" text-anchor="middle" x="344" y="-618" font-family="Arial Bold" font-size="14.00">AI Agent Layer</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_mcp</title>
+<polygon fill="lightcoral" stroke="lightcoral" points="222,-210 222,-382.2 476,-382.2 476,-210 222,-210"/>
+<text xml:space="preserve" text-anchor="middle" x="349" y="-365.6" font-family="Arial Bold" font-size="14.00">MCP Server Layer</text>
+<text xml:space="preserve" text-anchor="middle" x="349" y="-348.8" font-family="Arial Bold" font-size="14.00">(FastAPI - Port 8765)</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_core</title>
+<polygon fill="lavender" stroke="lavender" points="304,-8 304,-180 584,-180 584,-8 304,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="444" y="-163.4" font-family="Arial Bold" font-size="14.00">Core Services</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_external</title>
+<polygon fill="pink" stroke="pink" points="467,-424.2 467,-522.2 581,-522.2 581,-424.2 467,-424.2"/>
+<text xml:space="preserve" text-anchor="middle" x="524" y="-505.6" font-family="Arial Bold" font-size="14.00">External Services</text>
+</g>
+<!-- ReactUI -->
+<g id="node1" class="node">
+<title>ReactUI</title>
+<polygon fill="lightyellow" stroke="black" points="263.77,-923.6 118.23,-923.6 118.23,-882 263.77,-882 263.77,-923.6"/>
+<text xml:space="preserve" text-anchor="middle" x="191" y="-907" font-family="Arial" font-size="14.00">React UI</text>
+<text xml:space="preserve" text-anchor="middle" x="191" y="-890.2" font-family="Arial" font-size="14.00">(Vite + TailwindCSS)</text>
+</g>
+<!-- ChatInterface -->
+<g id="node2" class="node">
+<title>ChatInterface</title>
+<polygon fill="lightyellow" stroke="black" points="119.97,-798.2 16.03,-798.2 16.03,-762.2 119.97,-762.2 119.97,-798.2"/>
+<text xml:space="preserve" text-anchor="middle" x="68" y="-776" font-family="Arial" font-size="14.00">Chat Interface</text>
+</g>
+<!-- ReactUI&#45;&gt;ChatInterface -->
+<g id="edge1" class="edge">
+<title>ReactUI-&gt;ChatInterface</title>
+<path fill="none" stroke="black" d="M166.59,-881.64C154.93,-871.74 140.96,-859.46 129,-847.8 115.68,-834.81 101.61,-819.56 90.34,-806.93"/>
+<polygon fill="black" stroke="black" points="93.28,-804.97 84.03,-799.8 88.04,-809.61 93.28,-804.97"/>
+</g>
+<!-- DocumentList -->
+<g id="node3" class="node">
+<title>DocumentList</title>
+<polygon fill="lightyellow" stroke="black" points="243.74,-798.2 138.26,-798.2 138.26,-762.2 243.74,-762.2 243.74,-798.2"/>
+<text xml:space="preserve" text-anchor="middle" x="191" y="-776" font-family="Arial" font-size="14.00">Document List</text>
+</g>
+<!-- ReactUI&#45;&gt;DocumentList -->
+<g id="edge2" class="edge">
+<title>ReactUI-&gt;DocumentList</title>
+<path fill="none" stroke="black" d="M191,-881.61C191,-861.93 191,-831.79 191,-809.67"/>
+<polygon fill="black" stroke="black" points="194.5,-809.84 191,-799.84 187.5,-809.84 194.5,-809.84"/>
+</g>
+<!-- PermissionMatrix -->
+<g id="node4" class="node">
+<title>PermissionMatrix</title>
+<polygon fill="lightyellow" stroke="black" points="388.62,-798.2 261.38,-798.2 261.38,-762.2 388.62,-762.2 388.62,-798.2"/>
+<text xml:space="preserve" text-anchor="middle" x="325" y="-776" font-family="Arial" font-size="14.00">Permission Matrix</text>
+</g>
+<!-- ReactUI&#45;&gt;PermissionMatrix -->
+<g id="edge3" class="edge">
+<title>ReactUI-&gt;PermissionMatrix</title>
+<path fill="none" stroke="black" d="M214.4,-881.71C226.07,-871.61 240.36,-859.15 253,-847.8 268.07,-834.27 284.68,-818.94 298.15,-806.39"/>
+<polygon fill="black" stroke="black" points="300.46,-809.02 305.39,-799.64 295.69,-803.9 300.46,-809.02"/>
+</g>
+<!-- AgentEndpoint -->
+<g id="node6" class="node">
+<title>AgentEndpoint</title>
+<polygon fill="lightcyan" stroke="black" points="506.92,-714.2 413.08,-714.2 413.08,-672.6 506.92,-672.6 506.92,-714.2"/>
+<text xml:space="preserve" text-anchor="middle" x="460" y="-697.6" font-family="Arial" font-size="14.00">/agent/query</text>
+<text xml:space="preserve" text-anchor="middle" x="460" y="-680.8" font-family="Arial" font-size="14.00">Endpoint</text>
+</g>
+<!-- ChatInterface&#45;&gt;AgentEndpoint -->
+<g id="edge4" class="edge">
+<title>ChatInterface-&gt;AgentEndpoint</title>
+<path fill="none" stroke="black" d="M109.13,-761.7C115.74,-759.08 122.53,-756.49 129,-754.2 161.11,-742.84 169.15,-739.58 202.4,-732.2 270.03,-717.19 349,-706.6 401.5,-700.52"/>
+<polygon fill="black" stroke="black" points="401.57,-704.04 411.11,-699.43 400.78,-697.08 401.57,-704.04"/>
+<text xml:space="preserve" text-anchor="middle" x="245.2" y="-735.2" font-family="Arial" font-size="10.00">POST /agent/query</text>
+</g>
+<!-- DocEndpoint -->
+<g id="node7" class="node">
+<title>DocEndpoint</title>
+<polygon fill="lightcyan" stroke="black" points="613.19,-714.2 524.81,-714.2 524.81,-672.6 613.19,-672.6 613.19,-714.2"/>
+<text xml:space="preserve" text-anchor="middle" x="569" y="-697.6" font-family="Arial" font-size="14.00">/documents</text>
+<text xml:space="preserve" text-anchor="middle" x="569" y="-680.8" font-family="Arial" font-size="14.00">Endpoint</text>
+</g>
+<!-- DocumentList&#45;&gt;DocEndpoint -->
+<g id="edge5" class="edge">
+<title>DocumentList-&gt;DocEndpoint</title>
+<path fill="none" stroke="black" d="M230.29,-761.75C237.42,-758.97 244.87,-756.31 252,-754.2 302.3,-739.29 316.13,-740.26 367.97,-732.2 430.01,-722.56 449.57,-729.12 513.34,-714.54"/>
+<polygon fill="black" stroke="black" points="514.03,-717.98 522.94,-712.25 512.4,-711.17 514.03,-717.98"/>
+<text xml:space="preserve" text-anchor="middle" x="405.49" y="-735.2" font-family="Arial" font-size="10.00">GET /documents</text>
+</g>
+<!-- UserEndpoint -->
+<g id="node8" class="node">
+<title>UserEndpoint</title>
+<polygon fill="lightcyan" stroke="black" points="702.63,-714.2 631.37,-714.2 631.37,-672.6 702.63,-672.6 702.63,-714.2"/>
+<text xml:space="preserve" text-anchor="middle" x="667" y="-697.6" font-family="Arial" font-size="14.00">/users</text>
+<text xml:space="preserve" text-anchor="middle" x="667" y="-680.8" font-family="Arial" font-size="14.00">Endpoint</text>
+</g>
+<!-- PermissionMatrix&#45;&gt;UserEndpoint -->
+<g id="edge6" class="edge">
+<title>PermissionMatrix-&gt;UserEndpoint</title>
+<path fill="none" stroke="black" d="M374.58,-761.79C383.32,-759.04 392.38,-756.39 401,-754.2 494.35,-730.52 524.44,-742.47 620.19,-714.38"/>
+<polygon fill="black" stroke="black" points="620.92,-717.82 629.48,-711.58 618.9,-711.11 620.92,-717.82"/>
+<text xml:space="preserve" text-anchor="middle" x="567.75" y="-735.2" font-family="Arial" font-size="10.00">GET /users</text>
+</g>
+<!-- APIMain -->
+<g id="node5" class="node">
+<title>APIMain</title>
+<polygon fill="lightcyan" stroke="black" points="619.01,-798.2 518.99,-798.2 518.99,-762.2 619.01,-762.2 619.01,-798.2"/>
+<text xml:space="preserve" text-anchor="middle" x="569" y="-776" font-family="Arial" font-size="14.00">FastAPI Main</text>
+</g>
+<!-- APIMain&#45;&gt;AgentEndpoint -->
+<g id="edge7" class="edge">
+<title>APIMain-&gt;AgentEndpoint</title>
+<path fill="none" stroke="black" d="M546.68,-761.83C531.75,-750.22 511.81,-734.71 494.82,-721.49"/>
+<polygon fill="black" stroke="black" points="496.97,-718.73 486.93,-715.35 492.67,-724.25 496.97,-718.73"/>
+</g>
+<!-- APIMain&#45;&gt;DocEndpoint -->
+<g id="edge8" class="edge">
+<title>APIMain-&gt;DocEndpoint</title>
+<path fill="none" stroke="black" d="M569,-762.04C569,-751.62 569,-738.01 569,-725.73"/>
+<polygon fill="black" stroke="black" points="572.5,-726.03 569,-716.03 565.5,-726.03 572.5,-726.03"/>
+</g>
+<!-- APIMain&#45;&gt;UserEndpoint -->
+<g id="edge9" class="edge">
+<title>APIMain-&gt;UserEndpoint</title>
+<path fill="none" stroke="black" d="M588.83,-762.04C602.11,-750.55 619.88,-735.17 635.12,-721.98"/>
+<polygon fill="black" stroke="black" points="637.34,-724.7 642.61,-715.51 632.76,-719.4 637.34,-724.7"/>
+</g>
+<!-- LangChainAgent -->
+<g id="node9" class="node">
+<title>LangChainAgent</title>
+<polygon fill="lightgreen" stroke="black" points="451.11,-601.8 284.89,-601.8 284.89,-560.2 451.11,-560.2 451.11,-601.8"/>
+<text xml:space="preserve" text-anchor="middle" x="368" y="-585.2" font-family="Arial" font-size="14.00">LangChain ReAct Agent</text>
+<text xml:space="preserve" text-anchor="middle" x="368" y="-568.4" font-family="Arial" font-size="14.00">(GPT-4o)</text>
+</g>
+<!-- AgentEndpoint&#45;&gt;LangChainAgent -->
+<g id="edge10" class="edge">
+<title>AgentEndpoint-&gt;LangChainAgent</title>
+<path fill="none" stroke="black" d="M443.13,-672.15C428.8,-654.95 408.06,-630.07 392,-610.8"/>
+<polygon fill="black" stroke="black" points="394.83,-608.73 385.74,-603.28 389.45,-613.21 394.83,-608.73"/>
+<text xml:space="preserve" text-anchor="middle" x="441.23" y="-645.6" font-family="Arial" font-size="10.00">Query</text>
+</g>
+<!-- DocumentStorage -->
+<g id="node16" class="node">
+<title>DocumentStorage</title>
+<polygon fill="wheat" stroke="black" points="576.37,-147.2 443.63,-147.2 443.63,-105.6 576.37,-105.6 576.37,-147.2"/>
+<text xml:space="preserve" text-anchor="middle" x="510" y="-130.6" font-family="Arial" font-size="14.00">Document Storage</text>
+<text xml:space="preserve" text-anchor="middle" x="510" y="-113.8" font-family="Arial" font-size="14.00">(JSON Files)</text>
+</g>
+<!-- DocEndpoint&#45;&gt;DocumentStorage -->
+<g id="edge20" class="edge">
+<title>DocEndpoint-&gt;DocumentStorage</title>
+<path fill="none" stroke="black" d="M577.84,-672.49C586.69,-650.72 599,-614.57 599,-582 599,-582 599,-582 599,-235 599,-202.11 574,-173.86 550.51,-154.57"/>
+<polygon fill="black" stroke="black" points="552.85,-151.96 542.82,-148.56 548.54,-157.48 552.85,-151.96"/>
+<text xml:space="preserve" text-anchor="middle" x="633.46" y="-399.2" font-family="Arial" font-size="10.00">List Documents</text>
+</g>
+<!-- MCPClient -->
+<g id="node10" class="node">
+<title>MCPClient</title>
+<polygon fill="lightgreen" stroke="black" points="342.92,-481.6 237.08,-481.6 237.08,-440 342.92,-440 342.92,-481.6"/>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-465" font-family="Arial" font-size="14.00">MCP Client</text>
+<text xml:space="preserve" text-anchor="middle" x="290" y="-448.2" font-family="Arial" font-size="14.00">(HTTP + SSE)</text>
+</g>
+<!-- LangChainAgent&#45;&gt;MCPClient -->
+<g id="edge12" class="edge">
+<title>LangChainAgent-&gt;MCPClient</title>
+<path fill="none" stroke="black" d="M346.41,-559.77C341.21,-554.34 335.9,-548.28 331.54,-542.2 320.38,-526.64 310.43,-507.67 303.07,-492.07"/>
+<polygon fill="black" stroke="black" points="306.38,-490.9 299.04,-483.26 300.02,-493.81 306.38,-490.9"/>
+<text xml:space="preserve" text-anchor="middle" x="353.77" y="-533.2" font-family="Arial" font-size="10.00">Tool Calls</text>
+</g>
+<!-- AgentTools -->
+<g id="node11" class="node">
+<title>AgentTools</title>
+<polygon fill="lightgreen" stroke="black" points="451.35,-478.8 360.65,-478.8 360.65,-442.8 451.35,-442.8 451.35,-478.8"/>
+<text xml:space="preserve" text-anchor="middle" x="406" y="-456.6" font-family="Arial" font-size="14.00">Agent Tools</text>
+</g>
+<!-- LangChainAgent&#45;&gt;AgentTools -->
+<g id="edge13" class="edge">
+<title>LangChainAgent-&gt;AgentTools</title>
+<path fill="none" stroke="black" d="M374.45,-559.95C380.62,-540.74 390,-511.58 396.92,-490.03"/>
+<polygon fill="black" stroke="black" points="400.2,-491.28 399.93,-480.69 393.53,-489.14 400.2,-491.28"/>
+</g>
+<!-- OpenAI -->
+<g id="node19" class="node">
+<title>OpenAI</title>
+<path fill="lightpink" stroke="black" d="M564.97,-484.2C564.97,-487.07 544.81,-489.4 520,-489.4 495.19,-489.4 475.03,-487.07 475.03,-484.2 475.03,-484.2 475.03,-437.4 475.03,-437.4 475.03,-434.53 495.19,-432.2 520,-432.2 544.81,-432.2 564.97,-434.53 564.97,-437.4 564.97,-437.4 564.97,-484.2 564.97,-484.2"/>
+<path fill="none" stroke="black" d="M564.97,-484.2C564.97,-481.33 544.81,-479 520,-479 495.19,-479 475.03,-481.33 475.03,-484.2"/>
+<text xml:space="preserve" text-anchor="middle" x="520" y="-465" font-family="Arial" font-size="14.00">OpenAI API</text>
+<text xml:space="preserve" text-anchor="middle" x="520" y="-448.2" font-family="Arial" font-size="14.00">(GPT-4o)</text>
+</g>
+<!-- LangChainAgent&#45;&gt;OpenAI -->
+<g id="edge11" class="edge">
+<title>LangChainAgent-&gt;OpenAI</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M406.08,-559.95C424.09,-549.71 445.44,-536.41 463,-522.2 471.91,-514.99 480.78,-506.43 488.78,-498.06"/>
+<polygon fill="black" stroke="black" points="491.18,-500.62 495.43,-490.91 486.06,-495.85 491.18,-500.62"/>
+<text xml:space="preserve" text-anchor="middle" x="473.23" y="-533.2" font-family="Arial" font-size="10.00">LLM Calls</text>
+</g>
+<!-- MCPServer -->
+<g id="node12" class="node">
+<title>MCPServer</title>
+<polygon fill="mistyrose" stroke="black" points="362.34,-332.6 229.66,-332.6 229.66,-291 362.34,-291 362.34,-332.6"/>
+<text xml:space="preserve" text-anchor="middle" x="296" y="-316" font-family="Arial" font-size="14.00">MCP HTTP Server</text>
+<text xml:space="preserve" text-anchor="middle" x="296" y="-299.2" font-family="Arial" font-size="14.00">(SSE Support)</text>
+</g>
+<!-- MCPClient&#45;&gt;MCPServer -->
+<g id="edge14" class="edge">
+<title>MCPClient-&gt;MCPServer</title>
+<path fill="none" stroke="blue" stroke-width="2" d="M290.82,-439.67C291.81,-415.37 293.49,-374.18 294.67,-345.34"/>
+<polygon fill="blue" stroke="blue" stroke-width="2" points="298.15,-345.85 295.06,-335.71 291.16,-345.56 298.15,-345.85"/>
+<text xml:space="preserve" text-anchor="middle" x="321.58" y="-405.2" font-family="Arial" font-size="10.00">HTTP + SSE</text>
+<text xml:space="preserve" text-anchor="middle" x="321.58" y="-393.2" font-family="Arial" font-size="10.00">Port 8765</text>
+</g>
+<!-- DocumentTools -->
+<g id="node13" class="node">
+<title>DocumentTools</title>
+<polygon fill="mistyrose" stroke="black" points="467.97,-254 350.03,-254 350.03,-218 467.97,-218 467.97,-254"/>
+<text xml:space="preserve" text-anchor="middle" x="409" y="-231.8" font-family="Arial" font-size="14.00">Document Tools</text>
+</g>
+<!-- MCPServer&#45;&gt;DocumentTools -->
+<g id="edge15" class="edge">
+<title>MCPServer-&gt;DocumentTools</title>
+<path fill="none" stroke="black" d="M326.88,-290.63C341.14,-281.32 358.16,-270.21 373,-260.51"/>
+<polygon fill="black" stroke="black" points="374.66,-263.61 381.11,-255.21 370.83,-257.75 374.66,-263.61"/>
+</g>
+<!-- ToolExecutor -->
+<g id="node14" class="node">
+<title>ToolExecutor</title>
+<polygon fill="mistyrose" stroke="black" points="332.19,-254 229.81,-254 229.81,-218 332.19,-218 332.19,-254"/>
+<text xml:space="preserve" text-anchor="middle" x="281" y="-231.8" font-family="Arial" font-size="14.00">Tool Executor</text>
+</g>
+<!-- MCPServer&#45;&gt;ToolExecutor -->
+<g id="edge16" class="edge">
+<title>MCPServer-&gt;ToolExecutor</title>
+<path fill="none" stroke="black" d="M291.9,-290.63C290.32,-282.86 288.49,-273.83 286.78,-265.42"/>
+<polygon fill="black" stroke="black" points="290.21,-264.73 284.79,-255.62 283.35,-266.12 290.21,-264.73"/>
+</g>
+<!-- RBACManager -->
+<g id="node15" class="node">
+<title>RBACManager</title>
+<polygon fill="wheat" stroke="black" points="426.02,-147.2 311.98,-147.2 311.98,-105.6 426.02,-105.6 426.02,-147.2"/>
+<text xml:space="preserve" text-anchor="middle" x="369" y="-130.6" font-family="Arial" font-size="14.00">RBAC Manager</text>
+<text xml:space="preserve" text-anchor="middle" x="369" y="-113.8" font-family="Arial" font-size="14.00">(PyCasbin)</text>
+</g>
+<!-- DocumentTools&#45;&gt;RBACManager -->
+<g id="edge17" class="edge">
+<title>DocumentTools-&gt;RBACManager</title>
+<path fill="none" stroke="black" d="M401.53,-217.63C399.19,-212.03 396.63,-205.78 394.42,-200 389.21,-186.4 383.83,-171.21 379.36,-158.26"/>
+<polygon fill="black" stroke="black" points="382.74,-157.31 376.19,-148.98 376.11,-159.57 382.74,-157.31"/>
+<text xml:space="preserve" text-anchor="middle" x="434.71" y="-191" font-family="Arial" font-size="10.00">Check Permission</text>
+</g>
+<!-- DocumentTools&#45;&gt;DocumentStorage -->
+<g id="edge18" class="edge">
+<title>DocumentTools-&gt;DocumentStorage</title>
+<path fill="none" stroke="black" d="M451.55,-217.57C460.02,-212.76 468.34,-206.92 475,-200 486.25,-188.31 494.5,-172.3 500.14,-158.3"/>
+<polygon fill="black" stroke="black" points="503.38,-159.63 503.6,-149.03 496.82,-157.18 503.38,-159.63"/>
+<text xml:space="preserve" text-anchor="middle" x="524.87" y="-191" font-family="Arial" font-size="10.00">CRUD Operations</text>
+</g>
+<!-- ToolExecutor&#45;&gt;RBACManager -->
+<g id="edge19" class="edge">
+<title>ToolExecutor-&gt;RBACManager</title>
+<path fill="none" stroke="black" d="M295.14,-217.71C308.64,-201.2 329.26,-176 345.28,-156.41"/>
+<polygon fill="black" stroke="black" points="347.92,-158.71 351.54,-148.75 342.5,-154.27 347.92,-158.71"/>
+</g>
+<!-- RBACModel -->
+<g id="node17" class="node">
+<title>RBACModel</title>
+<polygon fill="wheat" stroke="black" points="412.46,-57.6 315.54,-57.6 315.54,-16 412.46,-16 412.46,-57.6"/>
+<text xml:space="preserve" text-anchor="middle" x="364" y="-41" font-family="Arial" font-size="14.00">RBAC Model</text>
+<text xml:space="preserve" text-anchor="middle" x="364" y="-24.2" font-family="Arial" font-size="14.00">(model.conf)</text>
+</g>
+<!-- RBACManager&#45;&gt;RBACModel -->
+<g id="edge21" class="edge">
+<title>RBACManager-&gt;RBACModel</title>
+<path fill="none" stroke="black" d="M367.87,-105.52C367.26,-94.85 366.49,-81.43 365.8,-69.37"/>
+<polygon fill="black" stroke="black" points="369.3,-69.2 365.23,-59.41 362.31,-69.6 369.3,-69.2"/>
+<text xml:space="preserve" text-anchor="middle" x="392.93" y="-78.6" font-family="Arial" font-size="10.00">Load Model</text>
+</g>
+<!-- RBACPolicy -->
+<g id="node18" class="node">
+<title>RBACPolicy</title>
+<polygon fill="wheat" stroke="black" points="527.07,-57.6 430.93,-57.6 430.93,-16 527.07,-16 527.07,-57.6"/>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-41" font-family="Arial" font-size="14.00">RBAC Policy</text>
+<text xml:space="preserve" text-anchor="middle" x="479" y="-24.2" font-family="Arial" font-size="14.00">(policy.csv)</text>
+</g>
+<!-- RBACManager&#45;&gt;RBACPolicy -->
+<g id="edge22" class="edge">
+<title>RBACManager-&gt;RBACPolicy</title>
+<path fill="none" stroke="black" d="M399.16,-105.21C407.05,-99.68 415.46,-93.56 423,-87.6 431.62,-80.79 440.65,-73.05 448.88,-65.74"/>
+<polygon fill="black" stroke="black" points="451.22,-68.34 456.31,-59.05 446.53,-63.14 451.22,-68.34"/>
+<text xml:space="preserve" text-anchor="middle" x="463.13" y="-78.6" font-family="Arial" font-size="10.00">Load Policy</text>
+</g>
+<!-- DataFiles -->
+<g id="node20" class="node">
+<title>DataFiles</title>
+<polygon fill="white" stroke="black" points="746.27,-54.8 743.27,-58.8 722.27,-58.8 719.27,-54.8 591.73,-54.8 591.73,-18.8 746.27,-18.8 746.27,-54.8"/>
+<text xml:space="preserve" text-anchor="middle" x="669" y="-32.6" font-family="Arial" font-size="14.00">data/documents/*.json</text>
+</g>
+<!-- DocumentStorage&#45;&gt;DataFiles -->
+<g id="edge23" class="edge">
+<title>DocumentStorage-&gt;DataFiles</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M546.48,-105.3C570.57,-92.03 602.21,-74.6 627.3,-60.77"/>
+<polygon fill="black" stroke="black" points="628.87,-63.91 635.94,-56.02 625.49,-57.78 628.87,-63.91"/>
+<text xml:space="preserve" text-anchor="middle" x="624.03" y="-78.6" font-family="Arial" font-size="10.00">Read/Write</text>
+</g>
+<!-- legend -->
+<g id="node21" class="node">
+<title>legend</title>
+<polygon fill="white" stroke="black" points="538.84,-930.8 405.16,-930.8 405.16,-874.8 544.84,-874.8 544.84,-924.8 538.84,-930.8"/>
+<polyline fill="none" stroke="black" points="538.84,-930.8 538.84,-924.8"/>
+<polyline fill="none" stroke="black" points="544.84,-924.8 538.84,-924.8"/>
+<text xml:space="preserve" text-anchor="middle" x="475" y="-917.8" font-family="Arial" font-size="10.00">Legend:</text>
+<text xml:space="preserve" text-anchor="middle" x="475" y="-905.8" font-family="Arial" font-size="10.00">Solid Line = Direct Call</text>
+<text xml:space="preserve" text-anchor="middle" x="475" y="-893.8" font-family="Arial" font-size="10.00">Dashed Line = Data Access</text>
+<text xml:space="preserve" text-anchor="middle" x="475" y="-881.8" font-family="Arial" font-size="10.00">Blue Line = Network Call</text>
+</g>
+</g>
+</svg>
