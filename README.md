@@ -89,26 +89,6 @@ This will start:
 - API Server on `http://localhost:8000`
 - Frontend on `http://localhost:3000`
 
-### Option 2: Start Services Individually
-
-**Terminal 1 - MCP Server:**
-```bash
-chmod +x start_mcp_server.sh
-./start_mcp_server.sh
-```
-
-**Terminal 2 - API Server:**
-```bash
-chmod +x start_api_server.sh
-./start_api_server.sh
-```
-
-**Terminal 3 - Frontend:**
-```bash
-chmod +x start_frontend.sh
-./start_frontend.sh
-```
-
 ## Usage
 
 1. **Open the application** at `http://localhost:3000`
