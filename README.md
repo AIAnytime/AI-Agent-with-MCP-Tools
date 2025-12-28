@@ -303,15 +303,6 @@ Permissions are validated before any tool execution.
 2. Implement action handler in document tools
 3. Update permission matrix in frontend
 
-## YouTube Demonstration Tips
-
-### Key Concepts to Highlight
-1. **RBAC in Action**: Show how different users get different results
-2. **Agent Reasoning**: Display the ReAct thought process in terminal
-3. **Real-time Updates**: Demonstrate SSE streaming
-4. **Security**: Show permission denial scenarios
-5. **Architecture**: Use the System Architecture tab to explain flow
-
 ### Demo Flow Suggestion
 1. Start with system overview
 2. Show Alice (admin) creating and deleting documents
@@ -323,23 +314,4 @@ Permissions are validated before any tool execution.
 
 ## License
 
-This project is created for educational and demonstration purposes.
-
-## Acknowledgments
-
-- Inspired by the article on integrating MCP Tools and RBAC into AI Agents
-- Built with LangChain, OpenAI, FastAPI, React, and PyCasbin
-- Designed for YouTube technical demonstrations
-
-## Support
-
-For issues or questions, please check:
-- Server logs in terminal windows
-- Browser console for frontend errors
-- Python error messages for backend issues
-- RBAC policy configuration
-
----
-
-**Built for YouTube Technical Demonstrations**
-**Demonstrates: AI Agents | MCP Protocol | RBAC Security | LangChain | OpenAI**
+This project is created for educational and demonstration purposes with MIT License.
