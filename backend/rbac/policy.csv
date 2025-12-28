@@ -1,0 +1,14 @@
+p, admin, document, create
+p, admin, document, read
+p, admin, document, update
+p, admin, document, delete
+
+p, editor, document, create
+p, editor, document, read
+p, editor, document, update
+
+p, viewer, document, read
+
+g, alice, admin
+g, bob, editor
+g, charlie, viewer
