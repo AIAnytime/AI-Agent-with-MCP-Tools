@@ -50,7 +50,7 @@ LangChain ReAct Agent (GPT-4o)
 ### 1. Clone and Setup Environment
 
 ```bash
-cd /Users/sonukumar/Desktop/YT/mcp-rbac-app
+git clone https://github.com/AIAnytime/AI-Agent-with-MCP-Tools.git
 ```
 
 ### 2. Install Python Dependencies
