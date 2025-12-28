@@ -51,6 +51,9 @@ LangChain ReAct Agent (GPT-4o)
 
 ```bash
 git clone https://github.com/AIAnytime/AI-Agent-with-MCP-Tools.git
+cd AI-Agent-with-MCP-Tools
+cd backend
+activate .venv
 ```
 
 ### 2. Install Python Dependencies
