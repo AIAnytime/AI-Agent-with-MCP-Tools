@@ -45,31 +45,6 @@ LangChain ReAct Agent (GPT-4o)
 - **bob** (Editor): Can create, read, and update documents
 - **charlie** (Viewer): Read-only access
 
-## Technology Stack
-
-### Backend
-- **Python 3.11+**: Core programming language
-- **FastAPI**: High-performance API framework
-- **LangChain**: LLM agent orchestration
-- **OpenAI GPT-4o**: Language model for agent reasoning
-- **PyCasbin**: RBAC policy enforcement
-- **SSE-Starlette**: Server-Sent Events support
-
-### Frontend
-- **React 18**: UI framework
-- **Vite**: Build tool and dev server
-- **TailwindCSS**: Utility-first CSS framework
-- **Axios**: HTTP client
-- **React Hot Toast**: Toast notifications
-- **Lucide React**: Icon library
-
-## Prerequisites
-
-- Python 3.11 or higher
-- Node.js 18 or higher
-- npm or yarn
-- OpenAI API key
-
 ## Installation
 
 ### 1. Clone and Setup Environment
